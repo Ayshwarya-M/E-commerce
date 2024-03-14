@@ -1,0 +1,71 @@
+/* p.card-text{
+    margin-right:%;
+    
+
+}
+.newsletter{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    padding:0px 140px;
+    gap:30px;
+    margin-bottom: 10vh;
+}
+.subscribe-content{
+    padding-left: 20%;
+
+}
+.newsletter h1{
+    color: #454545;
+    font-size:45px;
+    font-weight:600;
+}
+.newsletter p{
+    color:#454545;
+    font-size:20px;
+}
+.exclusive_card{
+    background:linear-gradient(180deg,#e188b3,#87d39e22 40%);
+}
+.newsletter input{
+    width:280px;
+    height:50px;
+    margin-left:30px;
+    border:none;
+    border-radius:20px;
+    outline:none;
+    color:#616161;
+    font-size:16px;
+}
+.newsletter button{
+    width:150px;
+    height:40px;
+    border-radius:80px;
+    background:black;
+    border: black;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+.email-div{
+    padding-left: 16%;
+    margin-top: 11%;
+}
+
+
+ */
+.newletter_centre_content{
+ margin-top: 21%;    
+}
+.newletter-full-page{
+    margin-top: 5%;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.newsletter-container{
+    height: 250%;
+    background:  linear-gradient(180deg,#e188b3,#87d39e22 40%) ;
+}

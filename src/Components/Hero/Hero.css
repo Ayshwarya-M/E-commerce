@@ -1,0 +1,154 @@
+/* 
+
+
+.hero_img{
+    width:30vw;
+}
+.arrow_logo{
+    width:70px;
+    margin-left: 77px;
+}
+.hero-latest-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 267px;
+    height: 70px;
+    border-radius: 75px;
+    background:#ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+    
+ 
+  }
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;
+    background:linear-gradient(180deg,#e188b3,#87d39e22 40%);
+    
+  }
+  .hero-left h2{
+    color:#090909;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 32%;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 650;
+    padding-left: 33.5%;
+  
+    
+}
+.hero-left p{
+  color: #171717;
+    font-size: 50px;
+    font-weight: 650;
+
+}
+.collections{
+  color: #171717;
+    font-size: 50px;
+    font-weight: 650;
+    padding-left: 30%;
+
+}
+.hero-hand-icon{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    padding-left: 18vw;
+}
+
+  .hero-hand-icon img{
+    width:70px;
+}
+
+
+  .hero-latest-btn,
+  .hero-right {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .hero-left {
+    flex: 1;
+    min-width: 300px; 
+    margin-top: 100px;
+  }
+  
+  .hero-latest-btn {
+    flex: 1;
+    min-width: 300px; 
+    margin-top: 5vh;
+    margin-left: 195px;
+  }
+  
+  .hero-right {
+    flex: 1;
+    min-width: 300px; 
+    padding-left:200px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 578px) {
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      width:100vw;
+      height: 200vh;
+      background:linear-gradient(180deg,#e188b3,#87d39e22 40%);
+      
+    }
+    .hero-left,
+    .hero-latest-btn,
+    .hero-right {
+      flex: 100%;
+      min-width: 0;
+    }
+    .hero_img{
+        width:90vw;
+        padding-left:-10%;
+        display: none;
+    }
+    .hero-hand-icon{
+      display:flex;
+      align-items: center;
+      gap:20px;
+      padding-left: 30vw;
+  }
+  .hero-latest-btn {
+    flex: 1;
+    min-width: 300px; 
+    margin-top: 200px;
+    margin-left: 8vw;
+  }
+  }
+   */
+
+
+.hero_outer_container{
+  background:linear-gradient(180deg,#e188b3,#87d39e22 40%);
+}
+.hand_logo_green {
+  height: 10vh;
+}
+.hero_left_content{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:578px) {
+  .hero_img_1 {
+    height: 50vh;
+  }
+  .hero_left_content{
+    height: 50vh;
+  }
+}

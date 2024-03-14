@@ -1,0 +1,10 @@
+.man2{
+    width: 450px;
+    height:275px;
+    padding-left: 25%;
+}
+@media only screen and (max-width: 578px) {
+.man2{
+    display: none;
+}
+}

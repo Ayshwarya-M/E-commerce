@@ -1,0 +1,33 @@
+.offer {
+  background: linear-gradient(180deg, #e188b3, #87d39e22 40%);
+  width: 75rem;
+  height: 38rem;
+}
+
+.exclusive h1 {
+  font-size: 55px;
+}
+
+.exclusive p {
+  font-size: 20px;
+}
+
+@media (max-width: 578px) {
+
+  .exclusive h1 {
+    font-size: 40px;
+  }
+
+  .exclusive p {
+    font-size: 12px;
+  }
+
+  .offer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .model {
+    height: 30vh;
+  }
+}
